@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.ren.projektmoblilne.MainActivity">
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnView"
+        android:layout_alignBottom="@+id/btnView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="38dp"
+        android:background="@android:drawable/editbox_background"
+        android:onClick="getWebsite"
+        android:text="Osvježi meni" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="108dp"
+        android:layout_marginStart="46dp"
+        android:background="@android:drawable/editbox_background"
+        android:onClick="openListActivity"
+        android:text="Jelovnik" />
+
+
+</RelativeLayout>
